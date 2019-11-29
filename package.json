@@ -1,0 +1,56 @@
+{
+  "name": "acceptance-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "serenity-bdd update",
+    "clean": "rimraf target",
+    "test": "failsafe clean test:execute test:report",
+    "test:execute": "protractor ./protractor.conf.js",
+    "test:report": "serenity-bdd run --features ./features",
+    "lint": "tslint --project tsconfig.json --format stylish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serenity-js/serenity-js-jasmine-protractor-template.git"
+  },
+  "keywords": [
+    "serenity-js",
+    "bdd",
+    "jasmine",
+    "protractor",
+    "testing"
+  ],
+  "author": "Jan Molak <jan.molak@smartcodeltd.co.uk>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/serenity-js/serenity-js-jasmine-protractor-template/issues"
+  },
+  "homepage": "http://serenity-js.org",
+  "engines": {
+    "node": ">= 10",
+    "npm": ">= 6"
+  },
+  "dependencies": {
+    "@serenity-js/assertions": "next",
+    "@serenity-js/core": "next",
+    "@serenity-js/console-reporter": "next",
+    "@serenity-js/jasmine": "next",
+    "@serenity-js/protractor": "next",
+    "@serenity-js/rest": "next",
+    "@serenity-js/serenity-bdd": "next",
+    "@types/jasmine": "^3.5.0",
+    "@types/node": "^10.14.20",
+    "chromedriver": "^78.0.1",
+    "is-ci": "^2.0.0",
+    "jasmine": "^3.5.0",
+    "npm-failsafe": "^0.4.1",
+    "protractor": "^5.4.2",
+    "rimraf": "^3.0.0",
+    "ts-node": "^8.5.4",
+    "tslint": "^5.20.1",
+    "tslint-microsoft-contrib": "^6.2.0",
+    "typescript": "^3.7.2"
+  }
+}

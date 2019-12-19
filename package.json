@@ -41,7 +41,7 @@
     "@serenity-js/rest": "next",
     "@serenity-js/serenity-bdd": "next",
     "@types/jasmine": "^3.5.0",
-    "@types/node": "^12.12.16",
+    "@types/node": "^12.12.21",
     "chromedriver": "^78.0.1",
     "is-ci": "^2.0.0",
     "jasmine": "^3.5.0",

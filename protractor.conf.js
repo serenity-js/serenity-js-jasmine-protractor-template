@@ -3,8 +3,7 @@ const
     { ConsoleReporter } = require('@serenity-js/console-reporter'),
     { Photographer, TakePhotosOfFailures, TakePhotosOfInteractions } = require('@serenity-js/protractor'),
     { SerenityBDDReporter } = require('@serenity-js/serenity-bdd'),
-    isCI = require('is-ci'),
-    path = require('path');
+    isCI = require('is-ci');
 
 exports.config = {
     baseUrl: 'http://localhost:3000',
@@ -43,13 +42,7 @@ exports.config = {
     // },
 
     jasmineNodeOpts: {
-        requires: [
-            'ts-node/register',
-            path.resolve(__dirname, 'node_modules/@serenity-js/jasmine'),
-        ],
-        helpers: [
-            'spec/support/setup.ts'
-        ],
+        requires: [ 'ts-node/register' ],
     },
 
     capabilities: {

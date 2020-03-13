@@ -41,7 +41,7 @@
     "@serenity-js/rest": "^2.2.2",
     "@serenity-js/serenity-bdd": "^2.2.2",
     "@types/jasmine": "^3.5.9",
-    "@types/node": "^12.12.29",
+    "@types/node": "^12.12.30",
     "chromedriver": "^80.0.1",
     "is-ci": "^2.0.0",
     "jasmine": "^3.5.0",

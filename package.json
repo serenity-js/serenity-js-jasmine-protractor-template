@@ -33,24 +33,24 @@
     "npm": ">= 6"
   },
   "dependencies": {
-    "@serenity-js/assertions": "^2.3.6",
-    "@serenity-js/core": "^2.3.6",
-    "@serenity-js/console-reporter": "^2.3.6",
-    "@serenity-js/jasmine": "^2.3.6",
-    "@serenity-js/protractor": "^2.3.6",
-    "@serenity-js/rest": "^2.3.6",
-    "@serenity-js/serenity-bdd": "^2.3.6",
+    "@serenity-js/assertions": "^2.5.1",
+    "@serenity-js/core": "^2.5.1",
+    "@serenity-js/console-reporter": "^2.5.1",
+    "@serenity-js/jasmine": "^2.5.1",
+    "@serenity-js/protractor": "^2.5.1",
+    "@serenity-js/rest": "^2.5.1",
+    "@serenity-js/serenity-bdd": "^2.5.1",
     "@types/jasmine": "^3.5.10",
-    "@types/node": "^12.12.37",
-    "chromedriver": "^80.0.1",
+    "@types/node": "^12.12.39",
+    "chromedriver": "^81.0.0",
     "is-ci": "^2.0.0",
     "jasmine": "^3.5.0",
     "npm-failsafe": "^0.4.1",
-    "protractor": "^5.4.4",
+    "protractor": "^7.0.0",
     "rimraf": "^3.0.2",
-    "ts-node": "^8.9.1",
-    "tslint": "^5.20.1",
+    "ts-node": "^8.10.1",
+    "tslint": "^6.1.2",
     "tslint-microsoft-contrib": "^6.2.0",
-    "typescript": "^3.8.3"
+    "typescript": "^3.9.2"
   }
 }

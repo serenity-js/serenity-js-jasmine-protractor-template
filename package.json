@@ -33,7 +33,7 @@
     "npm": ">= 6"
   },
   "dependencies": {
-    "@serenity-js/assertions": "^2.10.0",
+    "@serenity-js/assertions": "^2.10.2",
     "@serenity-js/core": "^2.10.0",
     "@serenity-js/console-reporter": "^2.10.0",
     "@serenity-js/jasmine": "^2.10.0",

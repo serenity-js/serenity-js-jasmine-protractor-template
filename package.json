@@ -35,7 +35,7 @@
   "dependencies": {
     "@serenity-js/assertions": "^2.19.7",
     "@serenity-js/core": "^2.19.7",
-    "@serenity-js/console-reporter": "^2.19.4",
+    "@serenity-js/console-reporter": "^2.19.7",
     "@serenity-js/jasmine": "^2.19.7",
     "@serenity-js/protractor": "^2.19.4",
     "@serenity-js/rest": "^2.19.7",

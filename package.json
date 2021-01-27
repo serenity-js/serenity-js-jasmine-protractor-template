@@ -37,7 +37,7 @@
     "@serenity-js/console-reporter": "^2.22.0",
     "@serenity-js/core": "^2.22.0",
     "@serenity-js/jasmine": "^2.20.1",
-    "@serenity-js/protractor": "^2.20.1",
+    "@serenity-js/protractor": "^2.22.0",
     "@serenity-js/rest": "^2.22.0",
     "@serenity-js/serenity-bdd": "^2.20.1",
     "@types/jasmine": "^3.6.3",

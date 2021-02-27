@@ -6,6 +6,8 @@
 Use this [template repository](https://help.github.com/en/articles/creating-a-repository-from-a-template)
 to get started with acceptance testing your web applications using [Serenity/JS](https://serenity-js.org), [Jasmine](https://jasmine.github.io/) and [Protractor](http://www.protractortest.org/).
 
+You might also want to have a look at the [Serenity BDD reports](https://serenity-js.github.io/serenity-js-jasmine-protractor-template/) produced by this project.
+
 Learn more:
 - [Serenity/JS Website](https://serenity-js.org)
 - [Serenity/JS API Docs](https://serenity-js.org/modules)

@@ -30,7 +30,7 @@
   "homepage": "http://serenity-js.org",
   "engines": {
     "node": "^10 || ^12 || ^14",
-    "npm": "^6"
+    "npm": "^6 || ^7"
   },
   "dependencies": {
     "@serenity-js/assertions": "^2.23.0",

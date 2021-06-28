@@ -6,16 +6,15 @@
 Use this [template repository](https://help.github.com/en/articles/creating-a-repository-from-a-template)
 to get started with acceptance testing your web applications using [Serenity/JS](https://serenity-js.org), [Jasmine](https://jasmine.github.io/) and [Protractor](http://www.protractortest.org/).
 
-You might also want to have a look at the [Serenity BDD reports](https://serenity-js.github.io/serenity-js-jasmine-protractor-template/) produced by this project.
-
 Learn more:
+- [Serenity BDD reports for this project](https://serenity-js.github.io/serenity-js-jasmine-protractor-template/)
 - [Serenity/JS Website](https://serenity-js.org)
 - [Serenity/JS API Docs](https://serenity-js.org/modules)
 
 ## Prerequisites
 
 To use this project, you'll need:
-- Node.js, a Long-Term Support (LTS) release version 10 or later - [download](https://nodejs.org/en/)
+- Node.js, a Long-Term Support (LTS) release version 12 or later - [download](https://nodejs.org/en/)
 - Java Runtime Environment (JRE) or a Java Development Kit (JDK) version 8 or later - [download](https://adoptopenjdk.net/)
 - Chrome web browser - [download](https://www.google.co.uk/chrome/)
 
@@ -56,7 +55,8 @@ Similar instructions are available for the [`chromedriver` module](https://www.n
 The project provides several [NPM scripts](https://docs.npmjs.com/cli/v6/using-npm/scripts) defined in [`package.json`](package.json):
 
 ```
-npm run lint            # runs the code linter
+npm run lint            # runs code linter
+npm run lint:fix        # attempts to automatically fix linting issues
 npm run clean           # removes reports from any previous test run
 npm test                # executes the example test suite
                         # and generates the report under ./target/site/serenity

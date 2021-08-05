@@ -41,7 +41,7 @@
     "@serenity-js/protractor": "^2.29.9",
     "@serenity-js/rest": "^2.29.9",
     "@serenity-js/serenity-bdd": "^2.29.9",
-    "@types/jasmine": "^3.8.1",
+    "@types/jasmine": "^3.8.2",
     "@types/node": "^14.17.9",
     "@typescript-eslint/eslint-plugin": "^4.28.4",
     "@typescript-eslint/parser": "^4.28.4",

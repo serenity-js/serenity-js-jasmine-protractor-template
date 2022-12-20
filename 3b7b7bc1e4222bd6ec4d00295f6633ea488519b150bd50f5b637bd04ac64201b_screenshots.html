@@ -23,13 +23,7 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
-<!--[if IE 7]>
-<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
-
-<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
-<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
-
-<!-- JQuery -->
+<link rel="stylesheet" href="bootstrap-icons/font/bootstrap-icons.css"><!-- JQuery -->
 <script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
 <link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
 <script src="chartist/dist/chartist.min.js"></script>
@@ -71,7 +65,13 @@
 </script>
 <link rel="stylesheet" href="css/core.css"/>
 <link rel="stylesheet" href="css/link.css"/>
-<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/>
+<!--CHART.JS-->
+<script src="chartjs/chart.js"></script>
+<script src="chartjs/chartjs-plugin-datalabels@2.0.0"></script>
+<script src="chartjs/chartjs-plugin-doughnutlabel.min.js"></script>
+<script src="chartjs/patternomaly.min.js"></script>
+<!-- Nivo Slider -->
 <link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
 <script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
@@ -145,13 +145,13 @@
 <div>
     <ul class="nav nav-tabs" role="tablist">
         <li class="active">
-            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+            <a href="#"><i class="bi bi-journal-check"></i> Overall Test Results</a>
         </li>
         <li >
-            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+            <a href="capabilities.html"><i class="bi bi-journal-text"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-12-2022 22:49</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 20-12-2022 22:57</span>
     <br style="clear:left"/>
 </div>
 
@@ -166,7 +166,7 @@
                         <td>
                             <div>
                                 <h3 class="discreet-story-header">
-                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <i class="fs-2 bi bi-chat-left-quote large-icon"></i>
                                     <span class="story-header-title">Serenity-Js.Org Website</span>
                                     <span class="badge tag-badge" style="">Feature</span>
                                 </h3>
@@ -180,13 +180,19 @@
                         <td valign="top" align="right">
                             <p class="tag">
                                 <span class="badge tag-badge" style="background:default;"
-                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="d4e98c7b47bdd39b0a77687f84e4a4f51c48b4709c4a2c3fcc2a58b7803e2eeb.html">Chrome 108.0.5359.98
+                                    <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="d4e98c7b47bdd39b0a77687f84e4a4f51c48b4709c4a2c3fcc2a58b7803e2eeb.html">Chrome 108.0.5359.98
                                     (browser)</a>
                                 </span>
                             </p>
                             <p class="tag">
                                 <span class="badge tag-badge" style="background:default;"
-                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8a486b82ce9f41d097d83414b28a10d776a067ff0dce8985e02f7903e365b228.html">Linux
+                                    <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="6c5512236937b92cd7a296b24edb966c2bd94be46b8910f8b129a42d6150eb25.html">1 To 10 Seconds
+                                    (Duration)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="8a486b82ce9f41d097d83414b28a10d776a067ff0dce8985e02f7903e365b228.html">Linux
                                     (platform)</a>
                                 </span>
                             </p>
@@ -198,7 +204,7 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
                                 <span class="success-color">tells people what they're reading @wip
                                     <span class="related-issue-title"></span>
@@ -219,9 +225,9 @@
     <div id="contenttilttle">
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="photo-linux-chrome-108.0.5359.98-jasmine-disables-synchronisation-with-e48e83d1a6.png" title=" Jasmine disables synchronisation with Angular" width="0"/>
-                <img src="photo-linux-chrome-108.0.5359.98-jasmine-navigates-to-https-serenit-02e22b9eda.png" title=" Jasmine navigates to 'https://serenity-js.org'" width="0"/>
-                <img src="photo-linux-chrome-108.0.5359.98-jasmine-ensures-that-the-title-of-the-02e22b9eda.png" title=" Jasmine ensures that the title of the current page does include 'Serenity/JS': <span class='success-color'>SUCCESS</span>" width="0"/>
+                <img src="photo-linux-chrome-108.0.5359.98-jasmine-disables-synchronisation-with-6b25fffb83.png" title=" Jasmine disables synchronisation with Angular" width="0"/>
+                <img src="photo-linux-chrome-108.0.5359.98-jasmine-navigates-to-https-serenit-5b84ba3ad5.png" title=" Jasmine navigates to 'https://serenity-js.org'" width="0"/>
+                <img src="photo-linux-chrome-108.0.5359.98-jasmine-ensures-that-current-page-5b84ba3ad5.png" title=" Jasmine ensures that &lt;&lt;current page&gt;&gt;.title() does include 'Serenity/JS': <span class='success-color'>SUCCESS</span>" width="0"/>
             </div>
         </div>
 
@@ -230,7 +236,7 @@
 </div>
 <div id="beforefooter"></div>
 <div id="bottomfooter">
-    <span class="version">Serenity BDD version 2.3.31</span>
+    <span class="version">Serenity BDD version 3.1.0</span>
 </div>
 </body>
 </html>

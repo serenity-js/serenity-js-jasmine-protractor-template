@@ -1,9 +1,8 @@
 const
     { ArtifactArchiver } = require('@serenity-js/core'),
     { ConsoleReporter } = require('@serenity-js/console-reporter'),
-    { Photographer, TakePhotosOfFailures, TakePhotosOfInteractions } = require('@serenity-js/protractor'),
     { SerenityBDDReporter } = require('@serenity-js/serenity-bdd'),
-    isCI = require('is-ci');
+    { Photographer, TakePhotosOfInteractions } = require('@serenity-js/web');
 
 exports.config = {
     baseUrl: 'http://localhost:3000',
@@ -56,14 +55,15 @@ exports.config = {
 
         chromeOptions: {
             args: [
-                '--no-sandbox',
+                '--disable-web-security',
+                '--allow-file-access-from-files',
+                '--allow-file-access',
                 '--disable-infobars',
-                '--disable-dev-shm-usage',
-                '--disable-extensions',
-                '--log-level=3',
+                '--ignore-certificate-errors',
+                '--headless',
                 '--disable-gpu',
-                '--window-size=1920,1080',
-            ].concat(isCI ? ['--headless'] : [])    // run in headless mode on the CI server
+                '--window-size=1024x768',
+            ],
         }
     }
 };

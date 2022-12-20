@@ -2,8 +2,8 @@ import 'jasmine';
 
 import { Ensure, includes } from '@serenity-js/assertions';
 import { actorCalled, engage } from '@serenity-js/core';
-import { Navigate, Page } from '@serenity-js/web';
 import { UseAngular } from '@serenity-js/protractor';
+import { Navigate, Page } from '@serenity-js/web';
 
 import { Actors } from '../src';
 

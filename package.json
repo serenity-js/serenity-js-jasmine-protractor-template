@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "@types/jasmine": "^3.10.7",
-    "@types/node": "^16.18.13",
+    "@types/node": "^16.18.14",
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.54.0",
     "chromedriver": "^109.0.0",

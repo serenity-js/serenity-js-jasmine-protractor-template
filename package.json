@@ -40,11 +40,11 @@
     "@serenity-js/protractor": "^3.11.1",
     "@serenity-js/serenity-bdd": "^3.11.1",
     "@serenity-js/web": "^3.11.1",
-    "jasmine": "^3.99.0",
+    "jasmine": "^5.1.0",
     "protractor": "^7.0.0"
   },
   "devDependencies": {
-    "@types/jasmine": "^3.10.14",
+    "@types/jasmine": "^5.1.0",
     "@types/node": "^18.18.4",
     "@typescript-eslint/eslint-plugin": "^6.7.5",
     "@typescript-eslint/parser": "^6.7.5",

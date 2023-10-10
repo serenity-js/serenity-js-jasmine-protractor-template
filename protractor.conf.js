@@ -32,17 +32,19 @@ exports.config = {
         ]
     },
 
-    /**
-     * If you're interacting with a non-Angular application,
-     * uncomment the below onPrepare section,
-     * which disables Angular-specific test synchronisation.
-     */
-    // onPrepare: function() {
-    //     browser.waitForAngularEnabled(false);
-    // },
+    onPrepare: function() {
+        require('ts-node/register');
+
+        /**
+         * If you're interacting with a non-Angular application,
+         * uncomment the below onPrepare section,
+         * which disables Angular-specific test synchronisation.
+         */
+        // browser.waitForAngularEnabled(false);
+    },
 
     jasmineNodeOpts: {
-        requires: [ 'ts-node/register' ],
+        // Jasmine configuration, see https://serenity-js.org/api/jasmine-adapter/interface/JasmineConfig/
     },
 
     capabilities: {

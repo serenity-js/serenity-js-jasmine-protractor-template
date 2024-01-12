@@ -7,7 +7,7 @@ import { Navigate, Page } from '@serenity-js/web';
 
 import { Actors } from '../src';
 
-describe('serenity-js.org website', () => {
+describe('serenity-js website', () => {
 
     beforeEach(() => engage(new Actors()));
 

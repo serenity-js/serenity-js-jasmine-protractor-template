@@ -8,7 +8,7 @@
     "clean": "rimraf target",
     "test": "failsafe clean test:execute test:report",
     "test:execute": "protractor ./protractor.conf.js",
-    "test:report": "serenity-bdd run --features ./features",
+    "test:report": "serenity-bdd run",
     "lint": "eslint --ext ts --config .eslintrc.js .",
     "lint:fix": "npm run lint -- --fix"
   },
@@ -33,13 +33,13 @@
     "node": "^16.13 || ^18.12 || ^20"
   },
   "dependencies": {
-    "@serenity-js/assertions": "^3.14.2",
-    "@serenity-js/console-reporter": "^3.14.2",
-    "@serenity-js/core": "^3.14.2",
-    "@serenity-js/jasmine": "^3.14.2",
-    "@serenity-js/protractor": "^3.14.2",
-    "@serenity-js/serenity-bdd": "^3.14.2",
-    "@serenity-js/web": "^3.14.2",
+    "@serenity-js/assertions": "^3.15.0",
+    "@serenity-js/console-reporter": "^3.15.0",
+    "@serenity-js/core": "^3.15.0",
+    "@serenity-js/jasmine": "^3.15.0",
+    "@serenity-js/protractor": "^3.15.0",
+    "@serenity-js/serenity-bdd": "^3.15.0",
+    "@serenity-js/web": "^3.15.0",
     "jasmine": "^5.1.0",
     "protractor": "^7.0.0"
   },

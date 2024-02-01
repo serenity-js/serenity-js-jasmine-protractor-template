@@ -28,10 +28,10 @@ exports.config = {
         // see: https://serenity-js.org/handbook/reporting/
         crew: [
             '@serenity-js/console-reporter',
-            '@serenity-js/serenity-bdd',
+            [ '@serenity-js/serenity-bdd',          { specDirectory: './spec' } ],
             [ '@serenity-js/web:Photographer',      { strategy: 'TakePhotosOfInteractions'    } ],
             // [ '@serenity-js/web:Photographer',   { strategy: 'TakePhotosOfFailures'        } ],
-            [ '@serenity-js/core:ArtifactArchiver', { outputDirectory: 'target/site/serenity' } ],
+            [ '@serenity-js/core:ArtifactArchiver', { outputDirectory: './target/site/serenity' } ],
         ]
     },
 
@@ -48,6 +48,7 @@ exports.config = {
 
     jasmineNodeOpts: {
         // Jasmine configuration, see https://serenity-js.org/api/jasmine-adapter/interface/JasmineConfig/
+        specDirectory: './spec',
     },
 
     capabilities: {

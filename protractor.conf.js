@@ -1,11 +1,23 @@
+const { computeExecutablePath } = require('@puppeteer/browsers')
+const { resolve } = require('path')
+
+// Chrome 129 is the last version that correctly supports Selenium 3
+// Chrome 130 and later require Selenium 4 for browser.executeScript to correctly resolve WebElement arguments
+const chromeVersion = '129';
+
+const binaries = {
+    chromedriver: computeExecutablePath({ browser: 'chromedriver', buildId: chromeVersion, cacheDir: '.' }),
+    chrome: computeExecutablePath({ browser: 'chrome', buildId: chromeVersion, cacheDir: '.' }),
+}
+
 exports.config = {
     baseUrl: 'http://localhost:3000',
-
-    chromeDriver: require(`chromedriver/lib/chromedriver`).path,
 
     SELENIUM_PROMISE_MANAGER: false,
 
     directConnect: true,
+
+    chromeDriver: binaries.chromedriver,
 
     // https://github.com/angular/protractor/blob/master/docs/timeouts.md
     allScriptsTimeout: 110000,
@@ -60,6 +72,9 @@ exports.config = {
         },
 
         chromeOptions: {
+            w3c: false,
+            binary: binaries.chrome,
+            excludeSwitches: [ 'enable-automation' ],
             args: [
                 '--disable-web-security',
                 '--allow-file-access-from-files',
@@ -69,7 +84,7 @@ exports.config = {
                 '--headless',
                 '--disable-gpu',
                 '--window-size=1024x768',
-            ],
+            ]
         }
     }
 };

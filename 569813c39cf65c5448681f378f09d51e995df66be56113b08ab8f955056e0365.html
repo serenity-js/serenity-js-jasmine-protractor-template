@@ -191,9 +191,7 @@
     <div id="contenttop">
         <div class="middlebg">
         <span class="breadcrumbs"><a href="index.html">Home</a>
-                    > <a href="6f03d78fc79fa0e369e9e0409ca578b2d03979ed8e21347b00b086037871d096.html" title="File (breadcrumbType)">
-                    File
-                </a>
+                    > Theme 
                 > <span class="truncate-60">
                 Serenity-Js-Jasmine-Protractor-Template
             </span>
@@ -222,7 +220,9 @@
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="bi bi-chat-text"></i> Stories</a>
         </li>
     </ul>
-    <spanr:left"/>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 26-11-2025 00:11:03</span>
+    <br style="clea class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 26-11-2025 00:11:03</span>
+    <br style="clear:left"/>
 </div>
     <div class="clr"></div>
     <div id="beforetable"></div>
@@ -321,7 +321,7 @@
                     <td>
                         <i class="bi bi-flag-fill"></i> Tests Started
                     </td>
-                    <td>Nov 26, 2025 00:10:37</td>
+                    <td>Nov 26, 2025 00:10:59</td>
                 </tr>
                 <tr scope="row">
                     <td>
@@ -491,9 +491,7 @@
                                     <span class="tag-badge badge" style="background-color:#b0cf73; margin:1em;padding:4px;">
                                         <i class="bi bi-tag-fill"></i> File/Serenity-Js-Jasmine-Protractor-Template&nbsp;&nbsp;&nbsp;1
                                     </span>
-                                    </a>
-                                    <a href="100891794c3ce42aeab1e02aacc0693da722a0a378df7a1c899c4c6cafcec1ee.html">
-                                    <span class="tag-badge badge" style="background-color:#b0cf73; margin:1em;padding:4px;">
+                                            <span class="tag-badge badge" style="background-color:#b0cf73; margin:1em;padding:4px;">
                                         <i class="bi bi-tag-fill"></i> File/W&nbsp;&nbsp;&nbsp;1
                                     </span>
                                     </a>
@@ -554,7 +552,7 @@
                     <td>
                         <i class="bi bi-flag-fill"></i> Tests Started
                     </td>
-                    <td>Nov 26, 2025 00:10:37</td>
+                    <td>Nov 26, 2025 00:10:59</td>
                     <td>
                         <i class="bi bi-stopwatch"></i> Average
                         Execution Time
@@ -603,8 +601,8 @@
                                                                         <td><span class='context-icon'><i class='bi bi-browser-chrome' title='Chrome'></i> <i class='bi bi-ubuntu' title='Linux'></i></span><span style="display:none">Chrome,linux</span>
                                                                         </td>
                                                                         <td>3</td>
-                                                                        <td data-order="1764115837">00:10:37</td>
-                                                                        <td>1s 378ms</td>
+                                                                        <td data-order="1764115859">00:10:59</td>
+                                                                        <td>1s 360ms</td>
                                                                         <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
                                                                                     style="display:none">SUCCESS</span>
                                                                         </td>
@@ -958,7 +956,12 @@
                         } else {
                             return '';
                         }
-               callbacks: {
+                    },
+                },
+                tooltip: {
+                    enabled: true,
+                    usePointStyle: true,
+                    callbacks: {
                         label: (data) => {
                             return data.parsed.y + ' tests'
                         }
@@ -1092,16 +1095,6 @@
                 if (coverageReports[firstPoint.index].link) {
                     window.open(coverageReports[firstPoint.index].link, "_self")
                 }
-            }
-        }
-
-        coverageChartCtx.onclick = coverageClickHandler;
-    </script>
-    <!-- END COVERAGE CHART -->
-
-</body>
-</html>
-   }
             }
         }
 

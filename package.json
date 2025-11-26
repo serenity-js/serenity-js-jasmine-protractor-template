@@ -38,7 +38,7 @@
     "@serenity-js/assertions": "^3.36.1",
     "@serenity-js/console-reporter": "^3.36.1",
     "@serenity-js/core": "^3.36.1",
-    "@serenity-js/cucumber": "^3.36.1",
+    "@serenity-js/jasmine": "^3.36.1",
     "@serenity-js/serenity-bdd": "^3.36.1",
     "@serenity-js/protractor": "^3.36.1",
     "@serenity-js/web": "^3.36.1",

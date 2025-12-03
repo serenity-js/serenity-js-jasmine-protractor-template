@@ -191,7 +191,9 @@
     <div id="contenttop">
         <div class="middlebg">
         <span class="breadcrumbs"><a href="index.html">Home</a>
-                    > Theme 
+                    > <a href="6f03d78fc79fa0e369e9e0409ca578b2d03979ed8e21347b00b086037871d096.html" title="File (breadcrumbType)">
+                    File
+                </a>
                 > <span class="truncate-60">
                 Serenity-Js-Jasmine-Protractor-Template
             </span>
@@ -220,9 +222,7 @@
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="bi bi-chat-text"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 02-12-2025 21:51:02</span>
-    <br style="clea class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 02-12-2025 21:51:02</span>
-    <br style="clear:left"/>
+    <spanr:left"/>
 </div>
     <div class="clr"></div>
     <div id="beforetable"></div>
@@ -321,7 +321,7 @@
                     <td>
                         <i class="bi bi-flag-fill"></i> Tests Started
                     </td>
-                    <td>Dec 02, 2025 21:50:58</td>
+                    <td>Dec 03, 2025 14:35:27</td>
                 </tr>
                 <tr scope="row">
                     <td>
@@ -554,7 +554,7 @@
                     <td>
                         <i class="bi bi-flag-fill"></i> Tests Started
                     </td>
-                    <td>Dec 02, 2025 21:50:58</td>
+                    <td>Dec 03, 2025 14:35:27</td>
                     <td>
                         <i class="bi bi-stopwatch"></i> Average
                         Execution Time
@@ -603,8 +603,8 @@
                                                                         <td><span class='context-icon'><i class='bi bi-browser-chrome' title='Chrome'></i> <i class='bi bi-ubuntu' title='Linux'></i></span><span style="display:none">Chrome,linux</span>
                                                                         </td>
                                                                         <td>3</td>
-                                                                        <td data-order="1764712258">21:50:58</td>
-                                                                        <td>1s 362ms</td>
+                                                                        <td data-order="1764772527">14:35:27</td>
+                                                                        <td>1s 321ms</td>
                                                                         <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
                                                                                     style="display:none">SUCCESS</span>
                                                                         </td>
@@ -636,6 +636,10 @@
                                         <i class="bi bi-tag-fill"></i> Wip&nbsp;&nbsp;&nbsp;1
                                     </span>
                                     </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class                      </a>
                             </div>
                         </div>
                     </div>
@@ -781,10 +785,7 @@
                             sum += data;
                         });
                         let percentage = (value * 100 / sum).toFixed(0) + "%";
-                        if (percentage === '0%' || percentage === 'NaN%') {
-                            return '';
-                        } else {
-                            return percentage;
+                          return percentage;
                         }
                     },
                 },
@@ -1093,6 +1094,16 @@
                 if (coverageReports[firstPoint.index].link) {
                     window.open(coverageReports[firstPoint.index].link, "_self")
                 }
+            }
+        }
+
+        coverageChartCtx.onclick = coverageClickHandler;
+    </script>
+    <!-- END COVERAGE CHART -->
+
+</body>
+</html>
+   }
             }
         }
 

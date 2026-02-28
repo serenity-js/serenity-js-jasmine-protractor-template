@@ -43,12 +43,12 @@
     "@serenity-js/serenity-bdd": "^3.41.1",
     "@serenity-js/protractor": "^3.41.1",
     "@serenity-js/web": "^3.41.1",
-    "jasmine": "^5.13.0",
+    "jasmine": "^6.1.0",
     "protractor": "^7.0.0"
   },
   "devDependencies": {
     "@puppeteer/browsers": "^2.13.0",
-    "@types/jasmine": "^5.1.15",
+    "@types/jasmine": "^6.0.0",
     "@types/node": "^24.11.0",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",

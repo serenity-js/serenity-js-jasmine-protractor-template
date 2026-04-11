@@ -43,7 +43,7 @@
     "@serenity-js/serenity-bdd": "^3.42.1",
     "@serenity-js/protractor": "^3.42.1",
     "@serenity-js/web": "^3.42.1",
-    "jasmine": "^6.1.0",
+    "jasmine": "^6.2.0",
     "protractor": "^7.0.0"
   },
   "devDependencies": {

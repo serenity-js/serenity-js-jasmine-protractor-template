@@ -7,11 +7,8 @@
     "postinstall": "npm run postinstall:chrome && npm run postinstall:chromedriver",
     "postinstall:chrome": "npx @puppeteer/browsers install chrome@129",
     "postinstall:chromedriver": "npx @puppeteer/browsers install chromedriver@129",
-    "clean": "rimraf target",
-    "test": "failsafe clean test:execute test:report",
-    "test:execute": "protractor ./protractor.conf.js",
-    "test:report": "serenity-bdd run",
-    "start": "mkdirp target/site/serenity && npx http-server -p 8080 target/site/serenity -s -o",
+    "test": "protractor ./protractor.conf.js",
+    "test:report": "npx @serenity-js/html-reporter serve --dir ./reports/serenity-js --open",
     "lint": "eslint --ext ts --config .eslintrc.js .",
     "lint:fix": "npm run lint -- --fix"
   },
@@ -36,13 +33,13 @@
     "node": "^20 || ^22 || ^24"
   },
   "dependencies": {
-    "@serenity-js/assertions": "^3.45.6",
-    "@serenity-js/console-reporter": "^3.45.6",
-    "@serenity-js/core": "^3.45.6",
-    "@serenity-js/jasmine": "^3.45.6",
-    "@serenity-js/serenity-bdd": "^3.45.6",
-    "@serenity-js/protractor": "^3.45.6",
-    "@serenity-js/web": "^3.45.6",
+    "@serenity-js/assertions": "^3.45.7",
+    "@serenity-js/console-reporter": "^3.45.7",
+    "@serenity-js/core": "^3.45.7",
+    "@serenity-js/html-reporter": "^3.45.7",
+    "@serenity-js/jasmine": "^3.45.7",
+    "@serenity-js/protractor": "^3.45.7",
+    "@serenity-js/web": "^3.45.7",
     "jasmine": "^6.3.0",
     "protractor": "^7.0.0"
   },
@@ -57,10 +54,6 @@
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-unicorn": "^52.0.0",
     "eslint-plugin-unused-imports": "^3.2.0",
-    "http-server": "^14.1.1",
-    "mkdirp": "^3.0.1",
-    "npm-failsafe": "^1.4.0",
-    "rimraf": "^6.1.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   }

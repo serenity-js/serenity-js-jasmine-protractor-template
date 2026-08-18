@@ -1,0 +1,46 @@
+{
+  "$schema": "https://serenity-js.org/schemas/report-summary.json",
+  "generated": "2026-08-18T14:36:37.201Z",
+  "title": "Jasmine",
+  "schemaVersion": 1,
+  "reportUrl": "./index.html",
+  "ci": {
+    "commit": "272c8a9f81bc6cf3195b14dc57b962305170a5b8",
+    "branch": "main",
+    "jobUrl": "https://github.com/serenity-js/serenity-js-jasmine-protractor-template/actions/runs/32149165587"
+  },
+  "latestRun": {
+    "timestamp": "2026-08-18T14:36:36.081Z",
+    "label": "4180",
+    "totals": {
+      "passed": 1,
+      "failed": 0,
+      "pending": 0,
+      "skipped": 0,
+      "compromised": 0,
+      "error": 0
+    },
+    "duration": 1111
+  },
+  "runs": 1,
+  "failureClusters": [],
+  "consistency": {
+    "flaky": [],
+    "inconsistent": [],
+    "degraded": [],
+    "recovered": []
+  },
+  "scores": {
+    "passRate": 100,
+    "completeness": 100,
+    "consistency": 100,
+    "confidence": 100
+  },
+  "slowest": [
+    {
+      "name": "tells people what they're reading",
+      "source": "serenity-js_website.spec.ts:10",
+      "duration": 1111
+    }
+  ]
+}

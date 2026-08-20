@@ -11,9 +11,9 @@ window.__SERENITY_REPORT_DATA__ = {
       "compromised": 0,
       "error": 0
     },
-    "duration": 1111,
-    "startedAt": "2026-08-18T14:36:36.081Z",
-    "finishedAt": "2026-08-18T14:36:37.192Z",
+    "duration": 1137,
+    "startedAt": "2026-08-20T09:32:54.368Z",
+    "finishedAt": "2026-08-20T09:32:55.505Z",
     "testRunner": "Jasmine"
   },
   "scenarios": [
@@ -21,8 +21,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "tells people what they're reading",
       "category": "serenity-js website",
       "outcome": "SUCCESS",
-      "duration": 1111,
-      "startedAt": "2026-08-18T14:36:36.081Z",
+      "duration": 1137,
+      "startedAt": "2026-08-20T09:32:54.368Z",
       "source": {
         "path": "/__w/serenity-js-jasmine-protractor-template/serenity-js-jasmine-protractor-template/spec/serenity-js_website.spec.ts",
         "line": 10
@@ -53,10 +53,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Jasmine disables synchronisation with Angular",
           "outcome": "SUCCESS",
-          "duration": 5,
+          "duration": 8,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-08-18T14:36:36.100Z",
+          "startedAt": "2026-08-20T09:32:54.399Z",
           "location": {
             "path": "/__w/serenity-js-jasmine-protractor-template/serenity-js-jasmine-protractor-template/spec/serenity-js_website.spec.ts",
             "line": 12,
@@ -64,7 +64,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/4180/serenity-js-jasmine-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-jasmine-disables-synchronisation-wit-9f32f42d7f.png",
+              "path": "test-runs/4185/serenity-js-jasmine-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-jasmine-disables-synchronisation-wit-9f32f42d7f.png",
               "type": "screenshot"
             }
           ]
@@ -72,10 +72,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Jasmine navigates to \"https://serenity-js.org\"",
           "outcome": "SUCCESS",
-          "duration": 1000,
+          "duration": 1022,
           "children": [],
           "type": "Task",
-          "startedAt": "2026-08-18T14:36:36.136Z",
+          "startedAt": "2026-08-20T09:32:54.440Z",
           "location": {
             "path": "/__w/serenity-js-jasmine-protractor-template/serenity-js-jasmine-protractor-template/spec/serenity-js_website.spec.ts",
             "line": 13,
@@ -85,10 +85,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Jasmine ensures that <<current page>>.title() does include \"Serenity/JS\"",
           "outcome": "SUCCESS",
-          "duration": 21,
+          "duration": 9,
           "children": [],
           "type": "Task",
-          "startedAt": "2026-08-18T14:36:37.147Z",
+          "startedAt": "2026-08-20T09:32:55.473Z",
           "location": {
             "path": "/__w/serenity-js-jasmine-protractor-template/serenity-js-jasmine-protractor-template/spec/serenity-js_website.spec.ts",
             "line": 14,
@@ -142,6 +142,59 @@ window.__SERENITY_REPORT_DATA__ = {
               "children": [],
               "type": "Task",
               "startedAt": "2026-08-18T14:36:37.147Z",
+              "location": {
+                "path": "/__w/serenity-js-jasmine-protractor-template/serenity-js-jasmine-protractor-template/spec/serenity-js_website.spec.ts",
+                "line": 14,
+                "column": 20
+              }
+            }
+          ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "4185",
+          "timestamp": "2026-08-20T09:32:54.368Z",
+          "duration": 1137,
+          "activities": [
+            {
+              "name": "Jasmine disables synchronisation with Angular",
+              "outcome": "SUCCESS",
+              "duration": 8,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-08-20T09:32:54.399Z",
+              "location": {
+                "path": "/__w/serenity-js-jasmine-protractor-template/serenity-js-jasmine-protractor-template/spec/serenity-js_website.spec.ts",
+                "line": 12,
+                "column": 24
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/4185/serenity-js-jasmine-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-jasmine-disables-synchronisation-wit-9f32f42d7f.png",
+                  "type": "screenshot"
+                }
+              ]
+            },
+            {
+              "name": "Jasmine navigates to \"https://serenity-js.org\"",
+              "outcome": "SUCCESS",
+              "duration": 1022,
+              "children": [],
+              "type": "Task",
+              "startedAt": "2026-08-20T09:32:54.440Z",
+              "location": {
+                "path": "/__w/serenity-js-jasmine-protractor-template/serenity-js-jasmine-protractor-template/spec/serenity-js_website.spec.ts",
+                "line": 13,
+                "column": 22
+              }
+            },
+            {
+              "name": "Jasmine ensures that <<current page>>.title() does include \"Serenity/JS\"",
+              "outcome": "SUCCESS",
+              "duration": 9,
+              "children": [],
+              "type": "Task",
+              "startedAt": "2026-08-20T09:32:55.473Z",
               "location": {
                 "path": "/__w/serenity-js-jasmine-protractor-template/serenity-js-jasmine-protractor-template/spec/serenity-js_website.spec.ts",
                 "line": 14,
@@ -210,6 +263,32 @@ window.__SERENITY_REPORT_DATA__ = {
         "consistency": 100,
         "completeness": 100
       }
+    },
+    {
+      "timestamp": "2026-08-20T09:32:54.368Z",
+      "duration": 1137,
+      "outcomes": {
+        "passed": 1,
+        "failed": 0,
+        "pending": 0,
+        "skipped": 0,
+        "compromised": 0,
+        "error": 0
+      },
+      "label": "4185",
+      "slowest": 1137,
+      "fastest": 1137,
+      "average": 1137,
+      "commit": "a98835f83b951644a34585e2a1e5aa553a6ec5b9",
+      "branch": "main",
+      "ciJobUrl": "https://github.com/serenity-js/serenity-js-jasmine-protractor-template/actions/runs/32354313858",
+      "repositoryUrl": "https://github.com/serenity-js/serenity-js-jasmine-protractor-template",
+      "score": {
+        "confidence": 100,
+        "passRate": 100,
+        "consistency": 100,
+        "completeness": 100
+      }
     }
   ],
   "tags": [
@@ -264,7 +343,7 @@ window.__SERENITY_REPORT_DATA__ = {
       "version": "6.17.0-1022-azure",
       "arch": "x64"
     },
-    "serenityVersion": "3.45.7",
+    "serenityVersion": "3.45.8",
     "testRunner": {
       "name": "Jasmine",
       "version": "6.3.0"
@@ -277,15 +356,15 @@ window.__SERENITY_REPORT_DATA__ = {
     ],
     "ci": {
       "provider": "GitHub Actions",
-      "buildNumber": "4180",
+      "buildNumber": "4185",
       "branch": "main",
-      "commit": "272c8a9f81bc6cf3195b14dc57b962305170a5b8",
-      "commitMessage": "Merge pull request #1549 from serenity-js/chore/migrate-to-html-reporter",
-      "commitAuthor": "Jan Molak",
-      "jobUrl": "https://github.com/serenity-js/serenity-js-jasmine-protractor-template/actions/runs/32149165587",
+      "commit": "a98835f83b951644a34585e2a1e5aa553a6ec5b9",
+      "commitMessage": "fix(deps): update serenity/js and playwright to ^3.45.8 (#1550)",
+      "commitAuthor": "renovate[bot]",
+      "jobUrl": "https://github.com/serenity-js/serenity-js-jasmine-protractor-template/actions/runs/32354313858",
       "workflow": "build",
       "repositoryUrl": "https://github.com/serenity-js/serenity-js-jasmine-protractor-template",
-      "triggeredBy": "jan-molak"
+      "triggeredBy": "renovate[bot]"
     },
     "projectName": "acceptance-tests",
     "packageManager": "npm"
@@ -320,6 +399,7 @@ window.__SERENITY_REPORT_DATA__ = {
             "name": "tells people what they're reading",
             "outcome": "SUCCESS",
             "executionHistory": [
+              "SUCCESS",
               "SUCCESS"
             ]
           }

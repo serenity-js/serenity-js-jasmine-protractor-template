@@ -1,17 +1,17 @@
 {
   "$schema": "https://serenity-js.org/schemas/report-summary.json",
-  "generated": "2026-08-18T14:36:37.201Z",
+  "generated": "2026-08-20T09:32:55.529Z",
   "title": "Jasmine",
   "schemaVersion": 1,
   "reportUrl": "./index.html",
   "ci": {
-    "commit": "272c8a9f81bc6cf3195b14dc57b962305170a5b8",
+    "commit": "a98835f83b951644a34585e2a1e5aa553a6ec5b9",
     "branch": "main",
-    "jobUrl": "https://github.com/serenity-js/serenity-js-jasmine-protractor-template/actions/runs/32149165587"
+    "jobUrl": "https://github.com/serenity-js/serenity-js-jasmine-protractor-template/actions/runs/32354313858"
   },
   "latestRun": {
-    "timestamp": "2026-08-18T14:36:36.081Z",
-    "label": "4180",
+    "timestamp": "2026-08-20T09:32:54.368Z",
+    "label": "4185",
     "totals": {
       "passed": 1,
       "failed": 0,
@@ -20,9 +20,17 @@
       "compromised": 0,
       "error": 0
     },
-    "duration": 1111
+    "duration": 1137
   },
-  "runs": 1,
+  "runs": 2,
+  "delta": {
+    "passed": 0,
+    "failed": 0,
+    "pending": 0,
+    "skipped": 0,
+    "compromised": 0,
+    "error": 0
+  },
   "failureClusters": [],
   "consistency": {
     "flaky": [],
@@ -40,7 +48,7 @@
     {
       "name": "tells people what they're reading",
       "source": "serenity-js_website.spec.ts:10",
-      "duration": 1111
+      "duration": 1137
     }
   ]
 }

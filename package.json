@@ -33,13 +33,13 @@
     "node": "^20 || ^22 || ^24"
   },
   "dependencies": {
-    "@serenity-js/assertions": "^3.45.7",
-    "@serenity-js/console-reporter": "^3.45.7",
-    "@serenity-js/core": "^3.45.7",
-    "@serenity-js/html-reporter": "^3.45.7",
-    "@serenity-js/jasmine": "^3.45.7",
-    "@serenity-js/protractor": "^3.45.7",
-    "@serenity-js/web": "^3.45.7",
+    "@serenity-js/assertions": "^3.45.8",
+    "@serenity-js/console-reporter": "^3.45.8",
+    "@serenity-js/core": "^3.45.8",
+    "@serenity-js/html-reporter": "^3.45.8",
+    "@serenity-js/jasmine": "^3.45.8",
+    "@serenity-js/protractor": "^3.45.8",
+    "@serenity-js/web": "^3.45.8",
     "jasmine": "^6.3.0",
     "protractor": "^7.0.0"
   },

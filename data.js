@@ -11,9 +11,9 @@ window.__SERENITY_REPORT_DATA__ = {
       "compromised": 0,
       "error": 0
     },
-    "duration": 1112,
-    "startedAt": "2026-10-09T05:46:28.004Z",
-    "finishedAt": "2026-10-09T05:46:29.116Z",
+    "duration": 1000,
+    "startedAt": "2026-10-10T01:49:05.333Z",
+    "finishedAt": "2026-10-10T01:49:06.333Z",
     "testRunner": "Jasmine"
   },
   "scenarios": [
@@ -21,8 +21,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "tells people what they're reading",
       "category": "serenity-js website",
       "outcome": "SUCCESS",
-      "duration": 1112,
-      "startedAt": "2026-10-09T05:46:28.004Z",
+      "duration": 1000,
+      "startedAt": "2026-10-10T01:49:05.333Z",
       "source": {
         "path": "/__w/serenity-js-jasmine-protractor-template/serenity-js-jasmine-protractor-template/spec/serenity-js_website.spec.ts",
         "line": 10
@@ -56,7 +56,7 @@ window.__SERENITY_REPORT_DATA__ = {
           "duration": 8,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-10-09T05:46:28.030Z",
+          "startedAt": "2026-10-10T01:49:05.361Z",
           "location": {
             "path": "/__w/serenity-js-jasmine-protractor-template/serenity-js-jasmine-protractor-template/spec/serenity-js_website.spec.ts",
             "line": 12,
@@ -64,7 +64,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/4284/serenity-js-jasmine-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-jasmine-disables-synchronisation-wit-9f32f42d7f.png",
+              "path": "test-runs/4288/serenity-js-jasmine-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-jasmine-disables-synchronisation-wit-9f32f42d7f.png",
               "type": "screenshot"
             }
           ]
@@ -72,10 +72,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Jasmine navigates to \"https://serenity-js.org\"",
           "outcome": "SUCCESS",
-          "duration": 922,
+          "duration": 801,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-10-09T05:46:28.080Z",
+          "startedAt": "2026-10-10T01:49:05.401Z",
           "location": {
             "path": "/__w/serenity-js-jasmine-protractor-template/serenity-js-jasmine-protractor-template/spec/serenity-js_website.spec.ts",
             "line": 13,
@@ -83,7 +83,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/4284/serenity-js-jasmine-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-jasmine-navigates-to--https---sereni-59c8d4a215.png",
+              "path": "test-runs/4288/serenity-js-jasmine-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-jasmine-navigates-to--https---sereni-59c8d4a215.png",
               "type": "screenshot"
             }
           ]
@@ -91,10 +91,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Jasmine ensures that <<current page>>.title() does include \"Serenity/JS\"",
           "outcome": "SUCCESS",
-          "duration": 10,
+          "duration": 15,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-10-09T05:46:29.043Z",
+          "startedAt": "2026-10-10T01:49:06.243Z",
           "location": {
             "path": "/__w/serenity-js-jasmine-protractor-template/serenity-js-jasmine-protractor-template/spec/serenity-js_website.spec.ts",
             "line": 14,
@@ -102,7 +102,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/4284/serenity-js-jasmine-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-jasmine-ensures-that---current-page--59c8d4a215.png",
+              "path": "test-runs/4288/serenity-js-jasmine-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-jasmine-ensures-that---current-page--59c8d4a215.png",
               "type": "screenshot"
             }
           ]
@@ -1074,6 +1074,71 @@ window.__SERENITY_REPORT_DATA__ = {
               ]
             }
           ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "4288",
+          "timestamp": "2026-10-10T01:49:05.333Z",
+          "duration": 1000,
+          "activities": [
+            {
+              "name": "Jasmine disables synchronisation with Angular",
+              "outcome": "SUCCESS",
+              "duration": 8,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-10-10T01:49:05.361Z",
+              "location": {
+                "path": "/__w/serenity-js-jasmine-protractor-template/serenity-js-jasmine-protractor-template/spec/serenity-js_website.spec.ts",
+                "line": 12,
+                "column": 24
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/4288/serenity-js-jasmine-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-jasmine-disables-synchronisation-wit-9f32f42d7f.png",
+                  "type": "screenshot"
+                }
+              ]
+            },
+            {
+              "name": "Jasmine navigates to \"https://serenity-js.org\"",
+              "outcome": "SUCCESS",
+              "duration": 801,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-10-10T01:49:05.401Z",
+              "location": {
+                "path": "/__w/serenity-js-jasmine-protractor-template/serenity-js-jasmine-protractor-template/spec/serenity-js_website.spec.ts",
+                "line": 13,
+                "column": 22
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/4288/serenity-js-jasmine-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-jasmine-navigates-to--https---sereni-59c8d4a215.png",
+                  "type": "screenshot"
+                }
+              ]
+            },
+            {
+              "name": "Jasmine ensures that <<current page>>.title() does include \"Serenity/JS\"",
+              "outcome": "SUCCESS",
+              "duration": 15,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-10-10T01:49:06.243Z",
+              "location": {
+                "path": "/__w/serenity-js-jasmine-protractor-template/serenity-js-jasmine-protractor-template/spec/serenity-js_website.spec.ts",
+                "line": 14,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/4288/serenity-js-jasmine-protractor-template-1/screenshot-linux-chrome-129-0-6668-100-jasmine-ensures-that---current-page--59c8d4a215.png",
+                  "type": "screenshot"
+                }
+              ]
+            }
+          ]
         }
       ],
       "cast": [
@@ -1578,6 +1643,32 @@ window.__SERENITY_REPORT_DATA__ = {
         "consistency": 100,
         "completeness": 100
       }
+    },
+    {
+      "timestamp": "2026-10-10T01:49:05.333Z",
+      "duration": 1000,
+      "outcomes": {
+        "passed": 1,
+        "failed": 0,
+        "pending": 0,
+        "skipped": 0,
+        "compromised": 0,
+        "error": 0
+      },
+      "label": "4288",
+      "slowest": 1000,
+      "fastest": 1000,
+      "average": 1000,
+      "commit": "234cbf5c2d145279a41d6430f9193255a718da58",
+      "branch": "main",
+      "ciJobUrl": "https://github.com/serenity-js/serenity-js-jasmine-protractor-template/actions/runs/38014511365",
+      "repositoryUrl": "https://github.com/serenity-js/serenity-js-jasmine-protractor-template",
+      "score": {
+        "confidence": 100,
+        "passRate": 100,
+        "consistency": 100,
+        "completeness": 100
+      }
     }
   ],
   "tags": [
@@ -1645,12 +1736,12 @@ window.__SERENITY_REPORT_DATA__ = {
     ],
     "ci": {
       "provider": "GitHub Actions",
-      "buildNumber": "4284",
+      "buildNumber": "4288",
       "branch": "main",
-      "commit": "8bdc6954561a803438c84b5018a24451b57a7068",
-      "commitMessage": "fix(deps): update serenity/js and playwright to ^3.48.2 (#1566)",
+      "commit": "234cbf5c2d145279a41d6430f9193255a718da58",
+      "commitMessage": "chore(deps): update dependency @types/node to ^24.19.2 (#1567)",
       "commitAuthor": "renovate[bot]",
-      "jobUrl": "https://github.com/serenity-js/serenity-js-jasmine-protractor-template/actions/runs/37889998714",
+      "jobUrl": "https://github.com/serenity-js/serenity-js-jasmine-protractor-template/actions/runs/38014511365",
       "workflow": "build",
       "repositoryUrl": "https://github.com/serenity-js/serenity-js-jasmine-protractor-template",
       "triggeredBy": "renovate[bot]"
@@ -1688,6 +1779,7 @@ window.__SERENITY_REPORT_DATA__ = {
             "name": "tells people what they're reading",
             "outcome": "SUCCESS",
             "executionHistory": [
+              "SUCCESS",
               "SUCCESS",
               "SUCCESS",
               "SUCCESS",
